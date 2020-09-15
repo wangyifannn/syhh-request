@@ -1,13 +1,13 @@
 {
   "name": "syhh-request",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "repository": {
     "type": "git",
     "url": "git@github.com:wangyifannn/syhh-request.git"
   },
   "description": "",
   "main": "./dist/index.js",
-  "types": "index.d.ts",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "babel": "npx babel ./dist/index.js -o ./dist/index.js",
