@@ -1,14 +1,24 @@
 {
   "name": "syhh-request",
   "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:wangyifannn/syhh-request.git"
+  },
   "description": "",
-  "main": "./src/index.js",
+  "main": "./dist/index.js",
   "types": "index.d.ts",
   "scripts": {
     "build": "tsc",
+    "babel": "npx babel ./dist/index.js -o ./dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "keywords": ["syhh","request"],
   "author": "",
   "license": "ISC",
   "dependencies": {
